@@ -1,0 +1,344 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+  max-width: 1440px;
+  margin: auto;
+}
+
+nav {
+  background-color: #33292a;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+nav li {
+  display: flex;
+  padding: 10px;
+  text-align: center;
+  align-items: center;
+  height: 67px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.menu-icon {
+  margin-right: 30px;
+  display: none;
+}
+
+/* INTRO */
+
+.intro {
+  background-image: url("images/images/scott-goodwill-y8Ngwq34_Ak-unsplash.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
+
+.intro article {
+  display: block;
+  flex-direction: column;
+  color: white;
+  font-family: "Times New Roman", Times, serif;
+  line-height: 112, 5px;
+  font-size: 96px;
+  letter-spacing: 0em;
+  position: absolute;
+  bottom: 20%;
+  right: 20%;
+  text-align: right;
+  font-weight: 700;
+}
+
+/* ABOUT US */
+
+.about-us {
+  padding: 100px 30px 100px 30px;
+  display: flex;
+  justify-content: center;
+}
+
+.about-us h1 {
+  font-size: 32px;
+}
+
+.about-us article {
+  display: flex;
+  justify-content: center;
+  max-width: 856px;
+}
+
+.about-us .mar {
+  padding-right: 40px;
+}
+
+.about-us img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  border-radius: 4px;
+}
+
+.about-us .imp {
+  max-width: 423px;
+}
+
+/* WHAT WE DO */
+
+.w-w-do {
+  display: flex;
+  justify-content: center;
+  background-color: #33292a;
+  color: white;
+  text-align: center;
+}
+
+.w-w-do article {
+  max-width: 856px;
+  margin: 100px 30px 100px 30px;
+}
+
+.w-w-do h1 {
+  font-size: 32px;
+  padding: 0 30px 30px 30px;
+}
+
+.w-w-do img {
+  width: 81px;
+}
+
+.w-w-do .picture {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 80px;
+  gap: 40px;
+}
+
+/* OUR TRIPS */
+
+.gallery {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  flex-wrap: wrap;
+  max-width: 856px;
+  margin: auto;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.gallery-item {
+  height: 222px;
+  width: 272px;
+  flex-shrink: 1;
+  border-radius: 4px;
+}
+
+.photo-1 {
+  background-image: url("images/images/simon-english-48nerZQCHgo-unsplash.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.photo-2 {
+  background-image: url("images/images/james-wheeler-ZOA-cqKuJAA-unsplash.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.photo-3 {
+  background-image: url("images/images/daniel-tseng-73lmMKhi2U8-unsplash.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.photo-4 {
+  background-image: url("images/images/holly-mandarich-UVyOfX3v0Ls-unsplash.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.photo-5 {
+  background-image: url("images/images/patrick-szylar-45bM3XGqnDE-unsplash.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.photo-6 {
+  background-image: url("images/images/chung-yee-tsang-wqxCKM0R6R8-unsplash.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.photo-7 {
+  background-image: url("images/images/julian-bialowas-ilkTnuMunP8-unsplash.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.photo-8 {
+  background-image: url("images/images/matej-drha-rbDzMcJsBkY-unsplash.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.text {
+  background-color: rgb(201, 201, 201);
+  background-image: none;
+  /*pro vycentrování textu: */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  font-size: 32px;
+  font-weight: bold;
+  height: 100px;
+  width: 272px;
+}
+
+/* WHERE TO GO */
+
+.w-t-go {
+  background-color: #644b4f;
+}
+
+.w-t-go article {
+  display: flex;
+  justify-content: center;
+  max-width: 856px;
+  margin: auto;
+  padding: 100px 30px 100px 30px;
+  color: white;
+}
+
+.w-t-go h1 {
+  width: 800px;
+  font-size: 32px;
+}
+
+.w-t-go .line {
+  line-height: 3;
+  margin-top: 20px;
+}
+
+.button {
+  margin-top: 30px;
+}
+
+.w-t-go .contact-us-button {
+  border-radius: 4px;
+  padding: 10px 20px;
+  color: black;
+  background-color: white;
+  font-weight: bold;
+}
+
+/* REVIEWS */
+
+.reviews {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  max-width: 867px;
+  margin: auto;
+}
+
+.reviews-1 {
+  padding: 100px 30px 100px 30px;
+  width: 378px;
+  text-align: center;
+}
+
+.reviews-1 h1 {
+  margin-bottom: 20px;
+}
+
+.reviews-2 {
+  padding: 0px 30px 100px 30px;
+  max-width: 378px;
+}
+
+.reviews-2 img {
+  margin-bottom: 20px;
+  width: 122px;
+  height: 110px;
+  border-radius: 50%;
+}
+
+.reviews-2 .name {
+  padding-top: 30px;
+  font-weight: bold;
+}
+
+/* GALLERY */
+
+.gallery-four {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  flex-wrap: wrap;
+  max-width: 1440px;
+  margin: auto;
+  margin-bottom: 0;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.item {
+  flex: 1 1 100%;
+  box-sizing: border-box;
+}
+
+.gallery-four img {
+  width: 100%;
+  height: 100%;
+  display: block;
+  object-fit: cover;
+}
+
+.gallery-four .oprava {
+  margin: 0;
+}
+
+/* FOOTER */
+
+footer {
+  display: flex;
+  align-items: center;
+  background-color: #333333;
+  max-width: 1440px;
+  height: 115px;
+  color: white;
+}
+
+footer .footer {
+  text-align: center;
+}
+
+.button-2 {
+  margin-top: -20px;
+  padding: 7px;
+  font-size: 12px;
+  color: #efa69d;
+  text-decoration: underline;
+}
+
+.button-2 a {
+  color: #efa69d;
+}
+
+footer .info {
+  font-size: 10px;
+}

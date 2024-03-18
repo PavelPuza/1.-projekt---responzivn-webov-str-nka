@@ -1,0 +1,59 @@
+@media (min-width: 756px) {
+  .gallery-item {
+    width: calc(100% / 3 - 20px);
+  }
+  .text {
+    height: 222px;
+  }
+}
+
+@media (min-width: 756px) {
+  .item {
+    flex: 1 1 50%;
+  }
+}
+
+@media (max-width: 756px) {
+  header {
+    position: relative;
+    background-color: #33292a;
+    height: 50px;
+  }
+
+  header nav {
+    display: none;
+  }
+
+  header nav a {
+    display: none;
+  }
+
+  .menu-icon {
+    position: absolute;
+    bottom: 8px;
+    right: 15px;
+    display: block;
+    color: white;
+    font-size: 30px;
+  }
+
+  .wrap {
+    flex-wrap: wrap;
+  }
+
+  .w-w-do .picture {
+    flex-direction: column;
+  }
+
+  .w-t-go h1 {
+    height: 114px;
+  }
+
+  .about-us p {
+    padding: 30px 0;
+  }
+
+  .intro article {
+    font-size: 42px;
+  }
+}
